@@ -42,10 +42,12 @@ dmesg | head
 ---
 
 ## Hasil Eksekusi
-Sertakan screenshot hasil percobaan atau diagram:
-![Screenshot hasil](screenshots/example.png)
+)
 
 ---
+<img width="1184" height="665" alt="rifki (2)" src="https://github.com/user-attachments/assets/fefe25bd-f6d5-4e46-80d1-3e129e08b773" />
+<img width="1184" height="665" alt="rifki" src="https://github.com/user-attachments/assets/b173f749-c052-4d5b-a443-a5df0e3bdaf2" />
+<img width="1184" height="665" alt="rifki (1)" src="https://github.com/user-attachments/assets/22d420ed-4f13-458a-9a60-09aeedb49dd8" />
 
 ## Analisis
 uname -a adalah perintah di Linux yang digunakan untuk menampilkan semua informasi detail tentang sistem, termasuk nama kernel, nama mesin.
