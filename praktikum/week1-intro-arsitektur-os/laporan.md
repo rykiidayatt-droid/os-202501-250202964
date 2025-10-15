@@ -43,7 +43,7 @@ dmesg | head
 
 ## Hasil Eksekusi
 Sertakan screenshot hasil percobaan atau diagram:
-![Screenshot hasil](screenshots/example.png)
+<img width="1184" height="665" alt="rifki" src="https://github.com/user-attachments/assets/f6fe3e90-607c-4704-8bce-dcad3b39687f" />
 
 ---
 
