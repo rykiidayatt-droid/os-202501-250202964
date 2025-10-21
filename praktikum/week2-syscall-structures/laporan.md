@@ -52,7 +52,7 @@ dmesg | head
 
 ## Hasil Eksekusi
 Sertakan screenshot hasil percobaan atau diagram:
-![Screenshot hasil](screenshots/Screenshot ryki strace ls.png)
+![Screenshot hasil](screenshots/Screenshotrykistracels.png)
 
 ---
 
