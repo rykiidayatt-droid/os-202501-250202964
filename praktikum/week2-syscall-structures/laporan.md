@@ -20,6 +20,15 @@ Contoh:
 
 ## Dasar Teori
 Tuliskan ringkasan teori (3–5 poin) yang mendasari percobaan.
+jawab:System Call sebagai Antarmuka antara User dan Kernel System call merupakan mekanisme yang memungkinkan program di user space berinteraksi dengan kernel untuk mengakses sumber daya sistem seperti file, memori, dan perangkat keras. Tanpa system call, program user tidak dapat melakukan operasi penting seperti membaca file atau membuat proses baru.
+
+Kernel bertanggung jawab untuk mengatur alokasi sumber daya seperti CPU, memori, dan perangkat I/O. Ketika program user membutuhkan sumber daya tersebut, kernel akan menangani permintaan melalui system call agar proses tetap terkontrol dan tidak saling mengganggu.
+
+Alur Eksekusi System Call Saat sebuah program memanggil system call (misalnya read()), CPU akan beralih dari user mode ke kernel mode. Kernel kemudian mengeksekusi fungsi yang diminta, mengembalikan hasilnya ke program, dan berpindah kembali ke user mode setelah selesai.
+
+Keamanan dan Isolasi Proses Salah satu tujuan utama penggunaan system call adalah menjaga keamanan sistem. Dengan membatasi akses langsung ke kernel, sistem operasi dapat mencegah kesalahan program atau serangan berbahaya yang dapat merusak data atau mengganggu proses lain.
+
+
 
 ---
 
