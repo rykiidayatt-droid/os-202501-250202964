@@ -13,8 +13,11 @@ Topik: [Tuliskan judul topik, misalnya "Arsitektur Sistem Operasi dan Kernel"]
 
 ## Tujuan
 Tuliskan tujuan praktikum minggu ini.  
-Contoh:  
-> Mahasiswa mampu menjelaskan fungsi utama sistem operasi dan peran kernel serta system call.
+1.Menggunakan perintah ls, pwd, cd, cat untuk navigasi file dan direktori.
+2.Menggunakan chmod dan chown untuk manajemen hak akses file.
+3.Menjelaskan hasil output dari perintah Linux dasar.
+4.Menyusun laporan praktikum dengan struktur yang benar.
+5.Mengunggah dokumentasi hasil ke Git Repository tepat waktu.
 
 ---
 
