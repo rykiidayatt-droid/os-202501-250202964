@@ -83,8 +83,8 @@ Perintah chown digunakan untuk mengubah kepemilikan file atau direktori, baik pe
 
 ## Refleksi Diri
 Tuliskan secara singkat:
-- Apa bagian yang paling menantang minggu ini?  
-- Bagaimana cara Anda mengatasinya?  
+- Apa bagian yang paling menantang minggu ini?  di bagian codingan
+- Bagaimana cara Anda mengatasinya?  saya tanya ke teman di bagian yang menurut saya belum bisa
 
 ---
 
