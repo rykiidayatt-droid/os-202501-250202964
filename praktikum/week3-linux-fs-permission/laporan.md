@@ -50,7 +50,7 @@ dmesg | head
 
 ## Hasil Eksekusi
 Sertakan screenshot hasil percobaan atau diagram:
-![Screenshot hasil](screenshots/example.png)
+<img width="1590" height="1041" alt="screenshot rykii" src="https://github.com/user-attachments/assets/af63180f-bb99-45e5-8835-e2a00591325c" />
 
 ---
 
