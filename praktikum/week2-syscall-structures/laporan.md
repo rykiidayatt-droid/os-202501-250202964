@@ -55,7 +55,7 @@ Sertakan screenshot hasil percobaan atau diagram:
 ![Screenshot hasil](screenshots/Screenshotrykistracels.png)
 ![Screenshot hasil](screenshots/Screenshotrykistracels.png)
 ![screenshot hasil](screenshots/Screenshotrykiwsubuntu.png)
-
+![screenshot hasil](screenshots/Screenshotstracelsbagian%202.png)
 
 ---
 
