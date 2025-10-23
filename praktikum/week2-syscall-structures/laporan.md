@@ -54,7 +54,7 @@ dmesg | head
 Sertakan screenshot hasil percobaan atau diagram:
 ![Screenshot hasil](screenshots/Screenshotrykistracels.png)
 ![Screenshot hasil](screenshots/Screenshotrykistracels.png)
-
+![screenshot hasil](screenshots/Screenshotrykiwsubuntu.png)
 
 
 ---
