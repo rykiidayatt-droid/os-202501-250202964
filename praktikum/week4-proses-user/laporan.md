@@ -51,8 +51,8 @@ dmesg | head
 ## Hasil Eksekusi
 Sertakan screenshot hasil percobaan atau diagram:
 ![Screenshot hasil](screenshots/example.png)
+<img width="1363" height="764" alt="ss github" src="https://github.com/user-attachments/assets/e417298c-a63f-448c-8ea9-260f1312d330" />
 
----
 
 ## Analisis
 Dari hasil percobaan yang telah dilakukan, dapat dipahami bahwa setiap aktivitas di sistem operasi Linux dijalankan sebagai suatu proses yang memiliki identitas unik berupa PID (Process ID). Melalui perintah seperti ps, top, dan pstree, pengguna dapat memantau status, hierarki, serta penggunaan sumber daya dari setiap proses yang berjalan. Selain itu, dengan perintah sleep dan kill, pengguna juga dapat membuat, memantau, atau menghentikan proses secara langsung. Hasil ini menunjukkan bahwa Linux memiliki sistem multitasking yang efisien dan terstruktur, di mana setiap proses dapat dijalankan secara paralel tanpa saling mengganggu. Dengan adanya informasi seperti USER, %CPU, dan %MEM, pengguna dapat memahami bagaimana sistem mengalokasikan sumber daya untuk setiap proses.
