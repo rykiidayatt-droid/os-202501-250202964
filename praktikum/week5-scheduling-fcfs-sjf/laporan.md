@@ -65,7 +65,15 @@ Gunakan tabel proses berikut sebagai contoh (boleh dimodifikasi dengan data baru
    | P2 | 8 | 1 |
    | P3 | 7 | 2 |
    | P4 | 3 | 3 |
+  
+   2.Eksperimen 1 – FCFS (First Come First Served)
 
+Urutkan proses berdasarkan Arrival Time. P1-P2-P3-P4
+
+Hitung nilai berikut untuk tiap proses:
+
+Waiting Time (WT) = waktu mulai eksekusi - Arrival Time
+Turnaround Time (TAT) = WT + Burst Time
 
 ---
 
