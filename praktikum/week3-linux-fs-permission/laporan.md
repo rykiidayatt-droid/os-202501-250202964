@@ -41,9 +41,13 @@ Manajemen file di Linux menggunakan sistem hierarki direktori dengan root direct
 ## Kode / Perintah
 Tuliskan potongan kode atau perintah utama:
 ```bash
-uname -a
-lsmod | head
-dmesg | head
+ - P1 = 0 - 0 = 0
+
+              - P2 = 6 - 1 = 5
+
+              - P3 = 14 - 2 = 12
+
+              - P4 = 21 - 3 = 18
 ```
 
 ---
