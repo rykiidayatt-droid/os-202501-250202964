@@ -95,10 +95,9 @@ git push origin main
 ## Hasil Eksekusi
 Sertakan screenshot hasil percobaan atau diagram:
 ![Screenshot hasil](screenshots/example.png)
-<img width="1920" height="1080" alt="Screenshot 2025-11-11 182831" src="https://github.com/user-attachments/assets/30e05b0d-46db-4ecb-91da-c75705aed999" />
-<img width="1920" height="1080" alt="Screenshot 2025-11-11 182815" src="https://github.com/user-attachments/assets/43791ec8-bbd0-4dce-bf07-d392f0d48743" />
+<img width="1124" height="522" alt="ss week 6" src="https://github.com/user-attachments/assets/f242f7f2-2611-4157-b79e-8057f196678d" />
 
----
+<img width="1004" height="456" alt="yy" src="https://github.com/user-attachments/assets/4cd00a74-29d0-40c7-8b05-ab28525c5f4f" />
 
 ## Analisis
 - Jelaskan makna hasil percobaan.  
