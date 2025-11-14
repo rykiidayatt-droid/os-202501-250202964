@@ -58,10 +58,13 @@ Optimal secara teori, tetapi bisa menyebabkan starvation bagi proses panjang jik
 ---
 
 ## Kode / Perintah
-| Proses | burst time | Arrival time |
-|   P1   |------------|---------     |
-|   P2   | Data 2-----| Data 3       |
-| Data A | Data B     | Data C       |
+Gunakan tabel proses berikut sebagai contoh (boleh dimodifikasi dengan data baru):
+   | Proses | Burst Time | Arrival Time |
+   |:--:|:--:|:--:|
+   | P1 | 6 | 0 |
+   | P2 | 8 | 1 |
+   | P3 | 7 | 2 |
+   | P4 | 3 | 3 |
 
 
 ---
