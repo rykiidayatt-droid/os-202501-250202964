@@ -67,7 +67,24 @@ ls -l percobaan.txt
 chmod 600 percobaan.txt
 ls -l percobaan.txt
 ```
+-Analisis perbedaan sebelum dan sesudah chmod.
+-Ubah pemilik file (jika memiliki izin sudo):
+```bash
+ sudo chown root percobaan.txt
+ls -l percobaan.txt
+```
+5.Eksperimen 4 – Dokumentasi
 
+Ambil screenshot hasil terminal dan simpan di:
+```bash
+ praktikum/week3-linux-fs-permission/screenshots/
+```
+6.Commit & Push
+```bash
+ git add .
+git commit -m "Minggu 3 - Linux File System & Permission"
+git push origin main
+```
 ## Hasil Eksekusi
 Sertakan screenshot hasil percobaan atau diagram:
 <img width="1590" height="1041" alt="screenshot rykii" src="https://github.com/user-attachments/assets/af63180f-bb99-45e5-8835-e2a00591325c" />
