@@ -122,10 +122,7 @@ P2: 16 + 8 = 24 → WT = 16 − 1 = 15, TAT = 24 − 1 = 23
 Rata-rata WT = (0 + 3 + 7 + 15) ÷ 4 = 25 ÷ 4 = 6.25
 
 Rata-rata TAT = (6 + 6 + 14 + 23) ÷ 4 = 49 ÷ 4 = 12.25
- | Algoritma | Avg Waiting Time | Avg Turnaround Time | Kelebihan | Kekurangan |
-     |------------|------------------|----------------------|------------|-------------|
-     | FCFS | ... | ... | Sederhana dan mudah diterapkan | Tidak efisien untuk proses panjang |
-     | SJF | ... | ... | Optimal untuk job pendek | Menyebabkan *starvation* pada job panjang |
+
   4. **Eksperimen 3 – Visualisasi Spreadsheet (Opsional)**
      - Gunakan Excel/Google Sheets untuk membuat perhitungan otomatis:
      - Kolom: Arrival, Burst, Start, Waiting, Turnaround, Finish.
