@@ -95,6 +95,8 @@ git push origin main
 ## Hasil Eksekusi
 Sertakan screenshot hasil percobaan atau diagram:
 ![Screenshot hasil](screenshots/example.png)
+<img width="1920" height="1080" alt="Screenshot 2025-11-11 182831" src="https://github.com/user-attachments/assets/30e05b0d-46db-4ecb-91da-c75705aed999" />
+<img width="1920" height="1080" alt="Screenshot 2025-11-11 182815" src="https://github.com/user-attachments/assets/43791ec8-bbd0-4dce-bf07-d392f0d48743" />
 
 ---
 
