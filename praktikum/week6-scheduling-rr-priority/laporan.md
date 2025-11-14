@@ -83,15 +83,11 @@ praktikum/week6-scheduling-rr-priority/screenshots/
 ```
 Buat tabel perbandingan seperti berikut:
 
-| Algoritma | Avg Waiting Time | Avg Turnaround Time | Kelebihan | Kekurangan |
-     |------------|------------------|----------------------|------------|-------------|
-     | RR | ... | ... | Adil terhadap semua proses | Tidak efisien jika quantum tidak tepat |
-     | Priority | ... | ... | Efisien untuk proses penting | Potensi *starvation* pada prioritas rendah |
-     
+6.Commit & Push
 ```bash
-uname -a
-lsmod | head
-dmesg | head
+git add .
+git commit -m "Minggu 6 - CPU Scheduling RR & Priority"
+git push origin main
 ```
 
 ---
