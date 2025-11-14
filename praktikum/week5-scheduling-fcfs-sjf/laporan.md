@@ -73,12 +73,13 @@ Urutkan proses berdasarkan Arrival Time. P1-P2-P3-P4
 Hitung nilai berikut untuk tiap proses:
 
 Waiting Time (WT) = waktu mulai eksekusi - Arrival Time
+```bash
+uname -a
+lsmod | head
+dmesg | head
+```
 
-<table>
-<tr><th>Proses</th><th>Arrival</th><th>Burst</th></tr>
-<tr><td>P1</td><td>0</td><td>6</td></tr>
-<tr><td>P2</td><td>1</td><td>8</td></tr>
-</table>
+
 
 
 ---
