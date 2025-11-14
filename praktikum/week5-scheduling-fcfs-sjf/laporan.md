@@ -59,7 +59,7 @@ Optimal secara teori, tetapi bisa menyebabkan starvation bagi proses panjang jik
 
 ## Kode / Perintah
 Tuliskan potongan kode atau perintah utama:
-```bash
+tabel.md 
 uname -a
 lsmod | head
 dmesg | head
