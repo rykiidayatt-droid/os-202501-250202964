@@ -74,9 +74,13 @@ Hitung nilai berikut untuk tiap proses:
 
 Waiting Time (WT) = waktu mulai eksekusi - Arrival Time
 ```bash
-uname -a
-lsmod | head
-dmesg | head
+- P1 = 0 - 0 = 0
+
+              - P2 = 6 - 1 = 5
+
+              - P3 = 14 - 2 = 12
+
+              - P4 = 21 - 3 = 18
 ```
 
 
