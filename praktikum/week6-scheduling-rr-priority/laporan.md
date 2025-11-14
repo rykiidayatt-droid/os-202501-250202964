@@ -42,6 +42,12 @@ Namun, kelemahan utama Priority Scheduling adalah kemungkinan terjadinya starvat
 
 ## Kode / Perintah
 Tuliskan potongan kode atau perintah utama:
+ | Proses | Burst Time | Arrival Time | Priority |
+   |:--:|:--:|:--:|:--:|
+   | P1 | 5 | 0 | 2 |
+   | P2 | 3 | 1 | 1 |
+   | P3 | 8 | 2 | 4 |
+   | P4 | 6 | 3 | 3 |
 ```bash
 uname -a
 lsmod | head
