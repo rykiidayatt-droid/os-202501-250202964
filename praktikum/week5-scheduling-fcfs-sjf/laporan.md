@@ -60,6 +60,10 @@ Optimal secara teori, tetapi bisa menyebabkan starvation bagi proses panjang jik
 ## Kode / Perintah
 Tuliskan potongan kode atau perintah utama:
 ```bash
+| Proses | burst time | arivaltime |
+|--------|---------|---------|
+| Data 1 | Data 2  | Data 3  |
+| Data A | Data B  | Data C  |
 
 uname -a
 lsmod | head
