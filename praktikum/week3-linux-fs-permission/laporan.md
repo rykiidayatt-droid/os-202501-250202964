@@ -40,17 +40,33 @@ Manajemen file di Linux menggunakan sistem hierarki direktori dengan root direct
 
 ## Kode / Perintah
 Tuliskan potongan kode atau perintah utama:
+Setup Environment
+
+Gunakan Linux (Ubuntu/WSL).
+Pastikan folder kerja berada di dalam direktori repositori Git praktikum:
 ```bash
- - P1 = 0 - 0 = 0
-
-              - P2 = 6 - 1 = 5
-
-              - P3 = 14 - 2 = 12
-
-              - P4 = 21 - 3 = 18
+ praktikum/week3-linux-fs-permission/
 ```
-
----
+2.Eksperimen 1 – Navigasi Sistem File Jalankan perintah berikut:
+```bash
+ pwd
+ls -l
+cd /tmp
+ls -a
+```
+-Jelaskan hasil tiap perintah.
+-Catat direktori aktif, isi folder, dan file tersembunyi (jika ada).
+3.Eksperimen 2 – Membaca File Jalankan perintah:
+```bash
+ cat /etc/passwd | head -n 5
+```
+4.Eksperimen 3 – Permission & Ownership Buat file baru:
+```bash
+ echo "Hello <NAME><NIM>" > percobaan.txt
+ls -l percobaan.txt
+chmod 600 percobaan.txt
+ls -l percobaan.txt
+```
 
 ## Hasil Eksekusi
 Sertakan screenshot hasil percobaan atau diagram:
