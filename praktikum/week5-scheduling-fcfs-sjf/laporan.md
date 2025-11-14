@@ -82,7 +82,46 @@ Waiting Time (WT) = waktu mulai eksekusi - Arrival Time
 
               - P4 = 21 - 3 = 18
 ```
+Turnaround Time (TAT) = WT + Burst Time
 
+P1: 0 + 6 = 6 → 6 − 0 = 6
+
+P2: 6 + 8 = 14 → 14 − 1 = 13
+
+P3: 14 + 7 = 21 → 21 − 2 = 19
+
+P4: 21 + 3 = 24 → 24 − 3 = 21
+
+Hitung rata-rata Waiting Time dan Turnaround Time.
+
+rata rata TAT = (6 + 13 + 19 + 21) ÷ 4 = 59 ÷ 4 = 14.75
+
+rata rata WT = (0 + 5 + 12 + 18) ÷ 4 = 35 ÷ 4 = 8.75
+
+-Gantt Chart (FCFS):
+```bash
+| P1 | P2 | P3 | P4 |
+ 0    6    14   21   24
+```
+3.Eksperimen 2 – SJF (Shortest Job First)
+
+Urutkan proses berdasarkan Burst Time terpendek (dengan memperhatikan waktu kedatangan).
+
+Karena hanya P1 yang datang pertama, P1 dijalankan lebih dulu. Setelah itu urutannya berdasarkan burst time menjadi P4, P3, dan terakhir P2. Jadi urutan eksekusi proses adalah P1 → P4 → P3 → P2.
+
+Lakukan perhitungan WT dan TAT seperti langkah sebelumnya.
+
+P1: 0 + 6 = 6 → WT = 0 − 0 = 0, TAT = 6 − 0 = 6
+
+P4: 6 + 3 = 9 → WT = 6 − 3 = 3, TAT = 9 − 3 = 6
+
+P3: 9 + 7 = 16 → WT = 9 − 2 = 7, TAT = 16 − 2 = 14
+
+P2: 16 + 8 = 24 → WT = 16 − 1 = 15, TAT = 24 − 1 = 23
+
+Rata-rata WT = (0 + 3 + 7 + 15) ÷ 4 = 25 ÷ 4 = 6.25
+
+Rata-rata TAT = (6 + 6 + 14 + 23) ÷ 4 = 49 ÷ 4 = 12.25
 
 
 
