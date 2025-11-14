@@ -92,9 +92,11 @@ Sertakan screenshot hasil percobaan atau diagram:
 ---
 
 ## Analisis
-- Jelaskan makna hasil percobaan.  
-- Hubungkan hasil dengan teori (fungsi kernel, system call, arsitektur OS).  
-- Apa perbedaan hasil di lingkungan OS berbeda (Linux vs Windows)?  
+Perintah pertama yaitu pwd digunakan untuk mengetahui direktori aktif atau lokasi kamu berada saat ini di sistem file. Misalnya, hasilnya menunjukkan /home/kiaarawrr, yang berarti kamu sedang berada di dalam folder rumah pengguna dengan nama kiaarawrr. Mengetahui direktori aktif penting supaya kamu tidak bingung saat menjalankan perintah lain yang bergantung pada lokasi tersebut.
+
+Kemudian, perintah ls -l digunakan untuk melihat daftar isi folder secara rinci. Perintah ini menampilkan nama file atau folder beserta informasi tambahan seperti ukuran file, tanggal pembuatan atau modifikasi, dan hak akses (permissions) yang dimiliki file tersebut. Dengan cara ini, kamu bisa mengetahui lebih banyak detail tentang isi direktori saat ini, misalnya apakah sebuah file bisa dibaca atau ditulis oleh pengguna.
+
+Setelah itu, kamu menjalankan perintah cd /tmp untuk berpindah ke direktori /tmp, yaitu folder khusus yang biasanya dipakai oleh sistem untuk menyimpan file sementara. Setelah berpindah, perintah ls -a digunakan untuk menampilkan semua isi folder, termasuk file atau folder tersembunyi yang namanya diawali dengan titik (.). Contohnya, di /tmp terdapat folder tersembunyi .X11-unix dan beberapa file sistem yang penting. Dengan perintah-perintah ini, kamu dapat dengan mudah berpindah tempat dan melihat isi folder baik yang terlihat maupun tersembunyi.
 
 ---
 
