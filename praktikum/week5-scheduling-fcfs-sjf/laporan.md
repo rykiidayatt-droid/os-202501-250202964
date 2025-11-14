@@ -59,8 +59,8 @@ Optimal secara teori, tetapi bisa menyebabkan starvation bagi proses panjang jik
 
 ## Kode / Perintah
 Tuliskan potongan kode atau perintah utama:
-'''bash
-uname -a   
+```bash
+uname -a
 lsmod | head
 dmesg | head
 ```
