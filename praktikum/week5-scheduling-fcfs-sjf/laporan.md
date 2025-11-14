@@ -123,6 +123,11 @@ Rata-rata WT = (0 + 3 + 7 + 15) ÷ 4 = 25 ÷ 4 = 6.25
 
 Rata-rata TAT = (6 + 6 + 14 + 23) ÷ 4 = 49 ÷ 4 = 12.25
 
+| Algoritma | Avg Waiting Time | Avg Turnaround Time | Kelebihan | Kekurangan |
+     |------------|------------------|----------------------|------------|-------------|
+     | FCFS | 8,75 | 14,75| Sederhana dan mudah diterapkan | Tidak efisien untuk proses panjang |
+     | SJF | 6,25 | 12,25 | Optimal untuk job pendek | Menyebabkan *starvation* pada job panjang |
+
 
 
 ---
