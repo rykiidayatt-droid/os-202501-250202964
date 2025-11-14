@@ -48,6 +48,37 @@ Tuliskan potongan kode atau perintah utama:
    | P2 | 3 | 1 | 1 |
    | P3 | 8 | 2 | 4 |
    | P4 | 6 | 3 | 3 |
+   2. **Eksperimen 1 – Round Robin (RR)**
+   - Gunakan *time quantum (q)* = 3.  
+   - Hitung *waiting time* dan *turnaround time* untuk tiap proses.  
+   - Simulasikan eksekusi menggunakan Gantt Chart (manual atau spreadsheet).
+   
+   ```bash
+| P1 | P2 | P3 | P4 | P1 | P3 | ...
+0    3    6    9   12   15   18  ...
+```
+Catat sisa burst time tiap putaran.
+3.Eksperimen 2 – Priority Scheduling (Non-Preemptive)
+
+Urutkan proses berdasarkan nilai prioritas (angka kecil = prioritas tinggi). prioritas angka kecil = prioritas tinggi Urutan eksekusi: P1 (0–5), P2 (5–8), P4 (8–14), P3 (14–22)
+
+Lakukan perhitungan manual untuk:
+```bash
+WT[i] = waktu mulai eksekusi - Arrival[i]
+TAT[i] = WT[i] + Burst[i]
+```
+
+Buat tabel perbandingan hasil RR dan Priority.
+
+4.Eksperimen 3 – Analisis Variasi Time Quantum (Opsional)
+
+Ubah quantum menjadi 2 dan 5.
+Amati perubahan nilai rata-rata waiting time dan turnaround time.
+Buat tabel perbandingan efek quantum.
+5.Eksperimen 4 – Dokumentasi
+
+Simpan semua hasil tabel dan screenshot ke:
+
 ```bash
 uname -a
 lsmod | head
