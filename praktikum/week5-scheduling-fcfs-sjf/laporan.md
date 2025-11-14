@@ -60,6 +60,11 @@ Optimal secara teori, tetapi bisa menyebabkan starvation bagi proses panjang jik
 ## Kode / Perintah
 Tuliskan potongan kode atau perintah utama:
 ```bash
+|:proses:|:burst tima:|:arival time:|
+   | P1 | 6 | 0 |
+   | P2 | 8 | 1 |
+   | P3 | 7 | 2 |
+   | P4 | 3 | 3 |
 uname -a
 lsmod | head
 dmesg | head
