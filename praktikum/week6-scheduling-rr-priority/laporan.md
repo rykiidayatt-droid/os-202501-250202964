@@ -78,7 +78,14 @@ Buat tabel perbandingan efek quantum.
 5.Eksperimen 4 – Dokumentasi
 
 Simpan semua hasil tabel dan screenshot ke:
-
+```bash
+praktikum/week6-scheduling-rr-priority/screenshots/
+```
+Buat tabel perbandingan seperti berikut:
+| Algoritma | Avg Waiting Time | Avg Turnaround Time | Kelebihan | Kekurangan |
+     |------------|------------------|----------------------|------------|-------------|
+     | RR | ... | ... | Adil terhadap semua proses | Tidak efisien jika quantum tidak tepat |
+     | Priority | ... | ... | Efisien untuk proses penting | Potensi *starvation* pada prioritas rendah |
 ```bash
 uname -a
 lsmod | head
