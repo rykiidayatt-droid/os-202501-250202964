@@ -136,6 +136,124 @@ Philosopher 3 picked left fork 3
 Philosopher 4 picked left fork 4
 Philosopher 0 picked left fork 0
 ```
+Kapan Deadlock Terjadi?
+
+Deadlock bisa terjadi tepat saat semua filsuf secara simultan mengambil garpu kiri mereka dan kemudian berusaha mengambil garpu kanan, yang sudah dipegang oleh tetangganya. Karena setiap filsuf menunggu garpu kanan yang tidak pernah dilepaskan, sistem macet dan tidak ada yang bisa melanjutkan untuk makan.
+
+Mengapa Deadlock Terjadi?
+
+Deadlock terjadi karena setiap filsuf bersikeras mengambil dan menahan satu resource (garpu kiri) sambil menunggu resource lain (garpu kanan) yang dipegang oleh filsuf lain. Tidak ada mekanisme pencegahan seperti pelepasan resource secara paksa, pengambilan resource dalam urutan tertentu, atau timeout yang bisa memutus siklus tunggu ini.
+---
+Eksperimen 2
+```bash
+import threading
+import time
+import random
+
+NUM_PHILOSOPHERS = 5
+forks = [threading.Lock() for _ in range(NUM_PHILOSOPHERS)]
+
+# Semaphore: maksimal 4 filosof boleh makan bersamaan
+max_eaters = threading.Semaphore(4)
+
+def philosopher(i):
+    left = i
+    right = (i + 1) % NUM_PHILOSOPHERS
+
+    while True:
+        print(f"Philosopher {i} is thinking")
+        time.sleep(random.uniform(0.2, 0.6))
+
+        # Meminta izin makan
+        max_eaters.acquire()
+
+        # ================================
+        #  KHUSUS FILOSOF TERAKHIR (4)
+        #  Ambil garpu terbalik: right → left
+        # ================================
+        if i == NUM_PHILOSOPHERS - 1:
+            print(f"Philosopher {i} picked right fork {right}")
+            forks[right].acquire()
+
+            print(f"Philosopher {i} picked left fork {left}")
+            forks[left].acquire()
+
+        # ================================
+        #  Filosof lain normal: left → right
+        # ================================
+        else:
+            print(f"Philosopher {i} picked left fork {left}")
+            forks[left].acquire()
+
+            print(f"Philosopher {i} picked right fork {right}")
+            forks[right].acquire()
+
+        print(f"Philosopher {i} is eating")
+        time.sleep(random.uniform(0.2, 0.5))
+
+        # Letakkan garpu
+        forks[left].release()
+        forks[right].release()
+        print(f"Philosopher {i} released both forks")
+
+        # Izinkan filosof lain makan
+        max_eaters.release()
+        time.sleep(random.uniform(0.2, 0.6))
+
+
+threads = []
+for i in range(NUM_PHILOSOPHERS):
+    t = threading.Thread(target=philosopher, args=(i,))
+    t.start()
+    threads.append(t)
+
+```
+output
+```bash
+Philosopher 0 is thinking
+Philosopher 1 is thinking
+Philosopher 2 is thinking
+Philosopher 3 is thinking
+Philosopher 4 is thinking
+
+Philosopher 1 picked left fork 1
+Philosopher 1 picked right fork 2
+Philosopher 1 is eating
+Philosopher 3 picked left fork 3
+Philosopher 3 picked right fork 4
+Philosopher 3 is eating
+Philosopher 0 picked left fork 0
+Philosopher 0 picked right fork 1   ← menunggu jika fork 1 dipakai
+Philosopher 1 released both forks
+Philosopher 0 picked right fork 1
+Philosopher 0 is eating
+
+Philosopher 4 picked right fork 0
+Philosopher 4 picked left fork 4
+Philosopher 4 is eating
+
+Philosopher 2 picked left fork 2
+Philosopher 2 picked right fork 3
+Philosopher 2 is eating
+
+Philosopher 3 released both forks
+Philosopher 4 released both forks
+Philosopher 0 released both forks
+Philosopher 2 released both forks
+
+Philosopher 1 is thinking
+Philosopher 3 is thinking
+Philosopher 0 is thinking
+Philosopher 4 is thinking
+Philosopher 2 is thinking
+---
+
+
+
+
+
+
+```
 ## Analisis
 - Jelaskan makna hasil percobaan.  
 - Hubungkan hasil dengan teori (fungsi kernel, system call, arsitektur OS).  
