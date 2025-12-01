@@ -12,9 +12,14 @@ Topik: [Tuliskan judul topik, misalnya "Arsitektur Sistem Operasi dan Kernel"]
 ---
 
 ## Tujuan
-Tuliskan tujuan praktikum minggu ini.  
-Contoh:  
-> Mahasiswa mampu menjelaskan fungsi utama sistem operasi dan peran kernel serta system call.
+Setelah menyelesaikan tugas ini, mahasiswa mampu:
+
+1.Mengidentifikasi empat kondisi penyebab deadlock (mutual exclusion, hold and wait, no preemption, circular wait).
+2.Menjelaskan mekanisme sinkronisasi menggunakan semaphore atau monitor.
+3.Menganalisis dan memberikan solusi untuk kasus deadlock.
+4.Berkolaborasi dalam tim untuk menyusun laporan analisis.
+5.Menyajikan hasil studi kasus secara sistematis.
+
 
 ---
 
