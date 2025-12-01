@@ -70,7 +70,7 @@ while true:
      | Circular Wait | Ya | Ubah urutan pengambilan sumber daya |
 
 
----
+
 
 ## Kode / Perintah
 Tuliskan potongan kode atau perintah utama:
