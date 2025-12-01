@@ -89,9 +89,11 @@ git push origin main
 Sertakan screenshot hasil percobaan atau diagram:
 ![Screenshot hasil](screenshots/example.png)
 
----<img width="909" height="514" alt="wek7" src="https://github.com/user-attachments/assets/6f67945d-bb0e-493b-a6fa-86b85cd8ba03" />
+<img width="909" height="514" alt="wek7" src="https://github.com/user-attachments/assets/6f67945d-bb0e-493b-a6fa-86b85cd8ba03" />
 
-EKSPERIMEN 1
+<img width="910" height="499" alt="ke27" src="https://github.com/user-attachments/assets/46872e66-0075-4055-b517-c75a937670f4" />
+
+Eksperimen 1
 ---
 versi phyton
 ```bash
