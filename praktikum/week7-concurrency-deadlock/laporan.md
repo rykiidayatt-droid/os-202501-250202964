@@ -89,7 +89,8 @@ git push origin main
 Sertakan screenshot hasil percobaan atau diagram:
 ![Screenshot hasil](screenshots/example.png)
 
----
+---<img width="909" height="514" alt="wek7" src="https://github.com/user-attachments/assets/6f67945d-bb0e-493b-a6fa-86b85cd8ba03" />
+
 EKSPERIMEN 1
 ---
 versi phyton
