@@ -30,11 +30,23 @@ Concurrency adalah kondisi ketika beberapa proses atau thread dapat berjalan sec
 ---
 
 ## Langkah Praktikum
-1. Langkah-langkah yang dilakukan.  
-2. Perintah yang dijalankan.  
-3. File dan kode yang dibuat.  
-4. Commit message yang digunakan.
+1.Persiapan Tim
 
+-Bentuk kelompok beranggotakan 3–4 orang.
+-Tentukan ketua dan pembagian tugas (analisis, implementasi, dokumentasi).
+2.Eksperimen 1 – Simulasi Dining Philosophers (Deadlock Version)
+
+-Implementasikan versi sederhana dari masalah Dining Philosophers tanpa mekanisme pencegahan deadlock.
+-Contoh pseudocode:
+```bash
+while true:
+  think()
+  pick_left_fork()
+  pick_right_fork()
+  eat()
+  put_left_fork()
+  put_right_fork()
+```
 ---
 
 ## Kode / Perintah
