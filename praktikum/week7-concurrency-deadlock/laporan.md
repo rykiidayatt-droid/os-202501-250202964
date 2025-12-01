@@ -47,6 +47,20 @@ while true:
   put_left_fork()
   put_right_fork()
 ```
+-Jalankan simulasi atau analisis alur (boleh menggunakan pseudocode atau diagram alur).
+-Identifikasi kapan dan mengapa deadlock terjadi.
+3.Eksperimen 2 – Versi Fixed (Menggunakan Semaphore / Monitor)
+
+-Modifikasi pseudocode agar deadlock tidak terjadi, misalnya:
+-Menggunakan semaphore (mutex) untuk mengontrol akses.
+-Membatasi jumlah filosof yang dapat makan bersamaan (max 4).
+-Mengatur urutan pengambilan garpu (misal, filosof terakhir mengambil secara terbalik).
+-Analisis hasil modifikasi dan buktikan bahwa deadlock telah dihindari.
+4.Eksperimen 3 – Analisis Deadlock
+
+-Jelaskan empat kondisi deadlock dari versi pertama dan bagaimana kondisi tersebut dipecahkan pada versi fixed.
+
+-Sajikan hasil analisis dalam tabel seperti contoh berikut:
 ---
 
 ## Kode / Perintah
