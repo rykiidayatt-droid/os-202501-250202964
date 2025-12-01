@@ -90,6 +90,39 @@ Sertakan screenshot hasil percobaan atau diagram:
 ![Screenshot hasil](screenshots/example.png)
 
 ---
+EKSPERIMEN 1
+---
+versi phyton
+```bash
+import threading
+import time
+
+forks = [threading.Lock() for _ in range(5)]
+
+def philosopher(i):
+    left = i
+    right = (i + 1) % 5
+
+    while True:
+        print(f"Philosopher {i} is thinking")
+        time.sleep(1)
+
+        forks[left].acquire()
+        print(f"Philosopher {i} picked left fork {left}")
+
+        forks[right].acquire()
+        print(f"Philosopher {i} picked right fork {right}")
+
+        print(f"Philosopher {i} is eating")
+        time.sleep(1)
+
+        forks[left].release()
+        forks[right].release()
+
+# jalankan semua thread
+for i in range(5):
+    threading.Thread(target=philosopher, args=(i,)).start()
+```
 
 ## Analisis
 - Jelaskan makna hasil percobaan.  
