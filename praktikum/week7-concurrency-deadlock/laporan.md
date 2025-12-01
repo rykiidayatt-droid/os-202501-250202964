@@ -93,10 +93,15 @@ Sertakan screenshot hasil percobaan atau diagram:
 
 <img width="910" height="499" alt="ke27" src="https://github.com/user-attachments/assets/46872e66-0075-4055-b517-c75a937670f4" />
 
+<img width="905" height="507" alt="28" src="https://github.com/user-attachments/assets/8fa77f99-1aa7-40b2-8a36-c37654748a2d" />
+
+<img width="904" height="485" alt="29" src="https://github.com/user-attachments/assets/35d4388f-9099-4058-86b8-00a6e39469f7" />
+
 Eksperimen 1
----
+
 versi phyton
 ```bash
+
 import threading
 import time
 
