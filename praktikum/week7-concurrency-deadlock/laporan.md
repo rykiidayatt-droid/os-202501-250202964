@@ -68,17 +68,20 @@ while true:
      | Hold and Wait | Ya | Hindari proses menahan lebih dari satu sumber daya |
      | No Preemption | Ya | Tidak ada mekanisme pelepasan paksa |
      | Circular Wait | Ya | Ubah urutan pengambilan sumber daya |
+5.Eksperimen 4 – Dokumentasi
 
-
-
-
-## Kode / Perintah
-Tuliskan potongan kode atau perintah utama:
+-Simpan semua diagram, screenshot simulasi, dan hasil diskusi di:
 ```bash
-uname -a
-lsmod | head
-dmesg | head
+praktikum/week7-concurrency-deadlock/screenshots/
 ```
+-Tuliskan laporan kelompok di laporan.md (format IMRaD singkat: Pendahuluan, Metode, Hasil, Analisis, Diskusi).
+6.Commit & Push
+```bash
+git add .
+git commit -m "Minggu 7 - Sinkronisasi Proses & Deadlock"
+git push origin main
+```
+
 
 ---
 
