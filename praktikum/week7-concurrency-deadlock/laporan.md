@@ -349,10 +349,3 @@ Tuliskan secara singkat:
 _Template laporan praktikum Sistem Operasi (SO-202501) – Universitas Putra Bangsa_ 
 
 ---
-
-
-
----
-
-**Credit:**  
-_Template laporan praktikum Sistem Operasi (SO-202501) – Universitas Putra Bangsa_
