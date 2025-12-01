@@ -263,24 +263,78 @@ Philosopher 2 is thinking
 
 ```
 ## Analisis
-- Jelaskan makna hasil percobaan.  
-- Hubungkan hasil dengan teori (fungsi kernel, system call, arsitektur OS).  
-- Apa perbedaan hasil di lingkungan OS berbeda (Linux vs Windows)?  
+1. Analisis Hasil Eksperimen Versi 1 (Tanpa Pencegahan Deadlock)
+
+Pada eksperimen pertama, seluruh filsuf mengambil garpu kiri secara bersamaan. Output menunjukkan bahwa semua filsuf berhasil mengambil garpu kiri, namun tidak ada yang melanjutkan ke proses makan secara serempak. Hal ini menunjukkan bahwa masing-masing filsuf menunggu garpu kanan yang sedang dipegang oleh tetangganya. Kondisi ini memenuhi keempat syarat deadlock menurut Coffman, terutama kondisi circular wait, yaitu:
+
+Karena tidak ada mekanisme untuk memaksa filsuf melepaskan garpu atau mencegah mereka mengambil resource dalam urutan yang sama, sistem akan macet dan tidak ada filsuf yang dapat melanjutkan proses makan. Dengan demikian, eksperimen pertama membuktikan bahwa deadlock dapat terjadi secara alami pada Dining Philosophers tanpa pencegahan.
+
+2. Analisis Eksperimen Versi 2 (Menggunakan Semaphore + Urutan Pengambilan Garpu Terbalik)
+
+Pada eksperimen kedua, dua mekanisme diperkenalkan:
+   1. Semaphore max 4 yang membatasi hanya empat filsuf yang boleh mencoba makan secara bersamaan.
+
+   2. Filsuf terakhir mengambil garpu dengan urutan terbalik (right → left) untuk memutus simetri dan circular wait.
+
+Output menunjukkan bahwa:
+
+- Tidak ada situasi di mana semua filsuf menunggu selamanya.
+Setiap filsuf secara bergantian dapat makan.
+- Tidak ada lima filsuf yang memegang satu garpu secara bersamaan.
+- Setiap kali ada filsuf yang selesai makan, kesempatan diberikan ke filsuf lain.
+- Dengan pembatasan semaphore, paling banyak hanya empat garpu yang terkunci pada waktu bersamaan, sehingga kondisi circular wait penuh tidak mungkin terjadi. Urutan pengambilan garpu terbalik pada filsuf terakhir juga memastikan bahwa pola permintaan resource tidak membentuk siklus sempurna.
+
+Analisis ini membuktikan bahwa deadlock berhasil dihindari karena kondisi Coffman keempat (circular wait) tidak terpenuhi.
 
 ---
 
 ## Kesimpulan
-Tuliskan 2–3 poin kesimpulan dari praktikum ini.
+Versi awal Dining Philosophers tanpa mekanisme pencegahan sangat rentan terhadap deadlock, karena memenuhi semua kondisi deadlock terutama circular wait.
+
+Penggunaan semaphore yang membatasi jumlah filsuf yang boleh makan secara bersamaan terbukti efektif memutus potensi deadlock, karena tidak memungkinkan lima filsuf mengunci resource sekaligus.
+
+Perubahan urutan pengambilan garpu oleh filsuf terakhir (right → left) memastikan bahwa pola circular wait tidak dapat terbentuk, sehingga deadlock tidak mungkin terjadi.
+
+Kombinasi kedua mekanisme tersebut menghasilkan solusi Dining Philosophers yang aman, bebas deadlock, dan lebih adil, tanpa mengorbankan kemampuan filsuf untuk makan secara bergantian.
+
 
 ---
 
 ## Quiz
-1. [Pertanyaan 1]  
-   **Jawaban:**  
-2. [Pertanyaan 2]  
-   **Jawaban:**  
-3. [Pertanyaan 3]  
-   **Jawaban:**  
+1. Sebutkan empat kondisi utama penyebab deadlock. 
+
+   1. Empat kondisi utama penyebab deadlock
+
+Mutual Exclusion
+Hanya satu proses yang dapat menggunakan suatu resource pada satu waktu.
+
+Hold and Wait
+Proses memegang satu resource sambil menunggu resource lain yang sedang digunakan proses lain.
+
+No Preemption
+Resource tidak dapat diambil paksa; hanya bisa dilepas secara sukarela oleh proses pemegangnya.
+
+Circular Wait
+Terjadi rantai proses saling menunggu secara melingkar, sehingga tidak ada yang bisa melanjutkan.
+
+2. Mengapa sinkronisasi diperlukan dalam sistem operasi?  
+
+Sinkronisasi diperlukan untuk:
+
+Mencegah race condition, yaitu kondisi ketika beberapa proses mengakses data bersama secara bersamaan sehingga menghasilkan data yang salah.
+
+Menjaga konsistensi data, terutama pada operasi yang bersifat paralel atau multitasking.
+
+Mengatur critical section, memastikan hanya satu proses yang mengakses bagian kode kritis pada suatu waktu.
+
+Mengkoordinasi proses, agar proses berjalan dalam urutan yang benar (misal: proses A harus selesai dulu sebelum proses B).
+
+3. Jelaskan perbedaan antara *semaphore* dan *monitor*.  
+
+Semaphore adalah mekanisme sinkronisasi tingkat rendah yang menggunakan variabel integer dan operasi wait() serta signal(). Programmer harus mengatur locking secara manual, sehingga rawan kesalahan seperti deadlock atau race condition.
+
+Monitor adalah mekanisme sinkronisasi tingkat tinggi yang terdiri dari variabel, prosedur, dan lock internal. Monitor secara otomatis memastikan mutual exclusion, sehingga lebih aman dan lebih mudah digunakan. Monitor biasanya didukung bahasa tingkat tinggi seperti Java dan C#.
+
 
 ---
 
@@ -288,6 +342,15 @@ Tuliskan 2–3 poin kesimpulan dari praktikum ini.
 Tuliskan secara singkat:
 - Apa bagian yang paling menantang minggu ini?  
 - Bagaimana cara Anda mengatasinya?  
+
+---
+
+**Credit:**  
+_Template laporan praktikum Sistem Operasi (SO-202501) – Universitas Putra Bangsa_ 
+
+---
+
+
 
 ---
 
