@@ -123,7 +123,19 @@ def philosopher(i):
 for i in range(5):
     threading.Thread(target=philosopher, args=(i,)).start()
 ```
-
+output
+```bash
+Philosopher 0 is thinking
+Philosopher 1 is thinking
+Philosopher 2 is thinking
+Philosopher 3 is thinking
+Philosopher 4 is thinking
+Philosopher 1 picked left fork 1
+Philosopher 2 picked left fork 2
+Philosopher 3 picked left fork 3
+Philosopher 4 picked left fork 4
+Philosopher 0 picked left fork 0
+```
 ## Analisis
 - Jelaskan makna hasil percobaan.  
 - Hubungkan hasil dengan teori (fungsi kernel, system call, arsitektur OS).  
