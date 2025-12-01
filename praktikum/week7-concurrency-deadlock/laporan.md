@@ -61,11 +61,7 @@ while true:
 -Jelaskan empat kondisi deadlock dari versi pertama dan bagaimana kondisi tersebut dipecahkan pada versi fixed.
 
 -Sajikan hasil analisis dalam tabel seperti contoh berikut:
-Kondisi Deadlock	Terjadi di Versi Deadlock	Solusi di Versi Fixed
-Mutual Exclusion	Ya (satu garpu hanya satu proses)	Gunakan semaphore untuk kontrol akses
-Hold and Wait	Ya	Hindari proses menahan lebih dari satu sumber daya
-No Preemption	Ya	Tidak ada mekanisme pelepasan paksa
-Circular Wait	Ya	Ubah urutan pengambilan sumber daya
+
 ---
 
 ## Kode / Perintah
