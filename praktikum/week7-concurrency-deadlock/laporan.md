@@ -62,7 +62,7 @@ while true:
 
 -Sajikan hasil analisis dalam tabel seperti contoh berikut:
 
- | Kondisi Deadlock | Terjadi di Versi Deadlock | Solusi di Versi Fixed |
+     | Kondisi Deadlock | Terjadi di Versi Deadlock | Solusi di Versi Fixed |
      |------------------|---------------------------|------------------------|
      | Mutual Exclusion | Ya (satu garpu hanya satu proses) | Gunakan semaphore untuk kontrol akses |
      | Hold and Wait | Ya | Hindari proses menahan lebih dari satu sumber daya |
