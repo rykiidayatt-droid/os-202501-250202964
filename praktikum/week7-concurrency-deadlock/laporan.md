@@ -5,9 +5,10 @@ Topik: [Tuliskan judul topik, misalnya "Arsitektur Sistem Operasi dan Kernel"]
 ---
 
 ## Identitas
-- **Nama**  : [Rifki HIdayat]  
-- **NIM**   : [NIM Mahasiswa]  
-- **Kelas** : [1IKRA]
+-NAMA KELOMPOK
+1.Rifki Hidayat(250202964)
+2.Ridho Yoga Yuana(250202964)
+3.Naufal Adib
 
 ---
 
