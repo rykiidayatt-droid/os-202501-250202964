@@ -13,13 +13,26 @@ Topik: [Tuliskan judul topik, misalnya "Arsitektur Sistem Operasi dan Kernel"]
 
 ## Tujuan
 Tuliskan tujuan praktikum minggu ini.  
-Contoh:  
-> Mahasiswa mampu menjelaskan fungsi utama sistem operasi dan peran kernel serta system call.
+Setelah menyelesaikan tugas ini, mahasiswa mampu:
+
+1.Membuat program simulasi algoritma penjadwalan FCFS dan/atau SJF.
+2.Menjalankan program dengan dataset uji yang diberikan atau dibuat sendiri.
+3.Menyajikan output simulasi dalam bentuk tabel atau grafik.
+4.Menjelaskan hasil simulasi secara tertulis.
+5.Mengunggah kode dan laporan ke Git repository dengan rapi dan tepat waktu.
 
 ---
 
 ## Dasar Teori
-Tuliskan ringkasan teori (3–5 poin) yang mendasari percobaan.
+1.Sistem Operasi dan Manajemen Proses Sistem operasi berfungsi mengelola sumber daya komputer, salah satunya adalah manajemen proses. Manajemen proses bertugas mengatur eksekusi beberapa proses agar dapat berjalan secara efisien dengan memanfaatkan CPU secara optimal.
+
+2.Konsep Penjadwalan CPU Penjadwalan CPU adalah mekanisme penentuan urutan proses yang akan dieksekusi oleh CPU. Karena CPU hanya dapat memproses satu proses pada satu waktu, penjadwalan diperlukan untuk mengatur giliran eksekusi proses.
+
+3.Algoritma Penjadwalan CPU Algoritma penjadwalan CPU merupakan aturan yang digunakan untuk memilih proses yang akan dijalankan, seperti First Come First Served (FCFS), Shortest Job First (SJF), Priority Scheduling, dan Round Robin (RR). Setiap algoritma memiliki karakteristik serta kelebihan dan kekurangan masing-masing.
+
+4.Parameter Kinerja Penjadwalan Kinerja algoritma penjadwalan dievaluasi menggunakan parameter seperti waiting time, turnaround time, response time, dan CPU utilization. Parameter ini digunakan untuk menilai efisiensi dan keadilan suatu algoritma penjadwalan.
+
+5.Simulasi Algoritma Penjadwalan CPU Simulasi algoritma penjadwalan CPU digunakan untuk memodelkan dan menganalisis cara kerja algoritma dalam kondisi tertentu. Melalui simulasi, performa berbagai algoritma dapat dibandingkan dan dipahami tanpa harus diterapkan langsung pada sistem operasi nyata.
 
 ---
 
