@@ -37,19 +37,23 @@ Setelah menyelesaikan tugas ini, mahasiswa mampu:
 ---
 
 ## Langkah Praktikum
-1. Langkah-langkah yang dilakukan.  
-2. Perintah yang dijalankan.  
-3. File dan kode yang dibuat.  
-4. Commit message yang digunakan.
-
+1.Menyiapkan Dataset Buat dataset proses minimal berisi data yang telah disajikan.
+2.Implementasi Algoritma Program harus: Menghitung waiting time dan turnaround time. Mendukung minimal 1 algoritma (FCFS atau SJF non-preemptive). Menampilkan hasil dalam tabel.
+3.Eksekusi & Validasi : Jalankan program menggunakan dataset uji. Pastikan hasil sesuai dengan perhitungan manual minggu sebelumnya.Simpan Hasil Screenshot.
+4.Analisis : Jelaskan alur program. Bandingkan hasil simulasi dengan perhitungan manual. Jelaskan kelebihan dan keterbatasan simulasi.
+5.Commit & Push git add . git commit -m "Minggu 9 - Simulasi Scheduling CPU" git push origin main
 ---
 
 ## Kode / Perintah
 Tuliskan potongan kode atau perintah utama:
 ```bash
-uname -a
-lsmod | head
-dmesg | head
+praktikum/week9-sim-scheduling/
+├─ code/
+│  ├─ scheduling_simulation.*
+│  └─ dataset.csv
+├─ screenshots/
+│  └─ hasil_simulasi.png
+└─ laporan.md
 ```
 
 ---
