@@ -47,7 +47,16 @@ Tuliskan tujuan praktikum minggu ini.
 python page_replacement.py
 
 ```
+Hasil eksekusi berupa tampilan isi frame memori, status HIT atau FAULT, serta total page fault untuk masing-masing algoritma.
 
+5.Menganalisis Hasil Simulasi Hasil simulasi FIFO dan LRU dibandingkan berdasarkan jumlah page fault. Analisis dilakukan untuk menentukan algoritma yang lebih efisien dalam penggunaan memori.
+
+6.Menyimpan dan Mengelola Kode dengan Git Kode program dan hasil praktikum disimpan dalam repository Git, kemudian dilakukan commit dan push menggunakan perintah:
+```bash
+git add .
+git commit -m "Minggu 10 - Page Replacement FIFO & LRU"
+git push origin main.
+```
 
 ---
 
