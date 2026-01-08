@@ -61,6 +61,7 @@ praktikum/week9-sim-scheduling/
 ## Hasil Eksekusi
 Sertakan screenshot hasil percobaan atau diagram:
 ![Screenshot hasil](screenshots/example.png)
+![Uploading WhatsApp Image 2026-01-07 at 19.51.49.jpeg…]()
 
 ---
 
