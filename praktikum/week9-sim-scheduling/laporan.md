@@ -1,4 +1,4 @@
-![WhatsApp Image 2026-01-07 at 19 51 49](https://github.com/user-attachments/assets/a81d8ae5-bfe9-48f8-8520-20dfeece95bc)
+
 # Laporan Praktikum Minggu [X]
 Topik: [Tuliskan judul topik, misalnya "Arsitektur Sistem Operasi dan Kernel"]
 
