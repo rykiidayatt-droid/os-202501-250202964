@@ -111,7 +111,8 @@ print("\n=== HASIL AKHIR ===") print(f"Total Page Fault FIFO: {fifo_faults}") pr
 
 ## Hasil Eksekusi
 Sertakan screenshot hasil percobaan atau diagram:
-![Screenshot hasil](screenshots/example.png)
+
+<img width="1526" height="1008" alt="rykiiphyton10" src="https://github.com/user-attachments/assets/7863b84c-004a-4423-9b7a-749793838d7f" />
 
 ---
 
