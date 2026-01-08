@@ -1,4 +1,4 @@
-
+![WhatsApp Image 2026-01-07 at 19 51 49](https://github.com/user-attachments/assets/a81d8ae5-bfe9-48f8-8520-20dfeece95bc)
 # Laporan Praktikum Minggu [X]
 Topik: [Tuliskan judul topik, misalnya "Arsitektur Sistem Operasi dan Kernel"]
 
@@ -59,9 +59,9 @@ praktikum/week9-sim-scheduling/
 ---
 
 ## Hasil Eksekusi
-Sertakan screenshot hasil percobaan atau diagram:
-![Uploading WhatsApp Image 2026-01-07 at 19.51.49.jpeg…]()
-ample.png)
+
+![WhatsApp Image 2026-01-07 at 19 51 49](https://github.com/user-attachments/assets/36d41584-4a90-4ece-9a58-cee5d1e7063f)
+
 
 
 ---
