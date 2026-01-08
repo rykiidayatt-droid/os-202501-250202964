@@ -5,29 +5,49 @@ Topik: [Tuliskan judul topik, misalnya "Arsitektur Sistem Operasi dan Kernel"]
 ---
 
 ## Identitas
-- **Nama**  : [Nama Mahasiswa]  
-- **NIM**   : [NIM Mahasiswa]  
-- **Kelas** : [Kelas]
+- **Nama**  : Rifki Hidayat
+- **NIM**   : 250202964 
+- **Kelas** : 1IKRA
 
 ---
 
 ## Tujuan
 Tuliskan tujuan praktikum minggu ini.  
-Contoh:  
-> Mahasiswa mampu menjelaskan fungsi utama sistem operasi dan peran kernel serta system call.
-
+1.Mengimplementasikan algoritma page replacement FIFO dalam program.
+2.Mengimplementasikan algoritma page replacement LRU dalam program.
+3.Menjalankan simulasi page replacement dengan dataset tertentu.
+4.Membandingkan performa FIFO dan LRU berdasarkan jumlah page fault.
+5.Menyajikan hasil simulasi dalam laporan yang sistematis.
 ---
 
 ## Dasar Teori
-Tuliskan ringkasan teori (3–5 poin) yang mendasari percobaan.
+1.Manajemen Memori Manajemen memori adalah bagian dari sistem operasi yang bertugas mengatur penggunaan memori utama agar dapat digunakan secara efisien oleh banyak proses. Salah satu masalah utama dalam manajemen memori adalah keterbatasan jumlah frame memori fisik dibandingkan dengan kebutuhan program.
+
+2.Page Replacement Page replacement adalah mekanisme yang digunakan ketika terjadi page fault, yaitu saat halaman yang dibutuhkan tidak tersedia di memori utama. Sistem operasi harus mengganti salah satu halaman yang ada di memori dengan halaman baru berdasarkan algoritma tertentu.
+
+3.Page Fault dan Page Hit Page fault terjadi ketika halaman yang diakses tidak ada di memori, sehingga sistem harus mengambilnya dari penyimpanan sekunder (disk). Page hit terjadi ketika halaman yang diakses sudah berada di memori, sehingga tidak diperlukan penggantian halaman.
+
+4.Algoritma FIFO (First In First Out) Algoritma FIFO mengganti halaman yang pertama kali masuk ke memori tanpa memperhatikan apakah halaman tersebut masih sering digunakan atau tidak. FIFO sederhana dan mudah diimplementasikan, namun tidak selalu memberikan hasil yang efisien.
+
+5.Algoritma LRU (Least Recently Used) Algoritma LRU mengganti halaman yang paling lama tidak digunakan. Algoritma ini lebih efisien dibanding FIFO karena mempertimbangkan pola penggunaan halaman, meskipun implementasinya lebih kompleks.
+
+
 
 ---
 
 ## Langkah Praktikum
-1. Langkah-langkah yang dilakukan.  
-2. Perintah yang dijalankan.  
-3. File dan kode yang dibuat.  
-4. Commit message yang digunakan.
+1.Menyiapkan Lingkungan Praktikum Praktikum dilakukan menggunakan bahasa pemrograman Python. Pastikan Python telah terpasang dan dapat dijalankan melalui terminal atau command prompt.
+
+2.Menentukan Reference String dan Jumlah Frame Reference string yang digunakan adalah: 7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2 Jumlah frame memori yang digunakan adalah 3 frame.
+
+3.Membuat Program Simulasi Page Replacement Program dibuat untuk mensimulasikan dua algoritma page replacement, yaitu FIFO dan LRU. Program mencatat setiap kejadian page hit dan page fault, serta menghitung total page fault.
+
+4.Menjalankan Program Program dijalankan melalui terminal menggunakan perintah:
+```bash
+python page_replacement.py
+
+```
+
 
 ---
 
