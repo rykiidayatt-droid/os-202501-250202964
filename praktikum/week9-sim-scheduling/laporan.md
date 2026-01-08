@@ -66,31 +66,28 @@ praktikum/week9-sim-scheduling/
 ---
 
 ## Analisis
-- Jelaskan makna hasil percobaan.  
-- Hubungkan hasil dengan teori (fungsi kernel, system call, arsitektur OS).  
-- Apa perbedaan hasil di lingkungan OS berbeda (Linux vs Windows)?  
+Hasil simulasi sesuai dengan perhitungan manual yang telah dilakukan pada praktikum minggu sebelumnya. Algoritma FCFS memiliki kelebihan yaitu mudah diimplementasikan dan adil berdasarkan urutan kedatangan. Namun, algoritma ini memiliki kelemahan berupa kemungkinan terjadinya convoy effect, di mana proses dengan burst time panjang dapat memperlambat proses lain.
+
 
 ---
 
 ## Kesimpulan
-Tuliskan 2–3 poin kesimpulan dari praktikum ini.
+Simulasi FCFS berhasil diimplementasikan dengan baik dan memberikan hasil yang konsisten dengan teori. Praktikum ini membantu memahami hubungan antara konsep penjadwalan CPU dan implementasi komputasionalnya.
+
+
 
 ---
 
 ## Quiz
-1. [Pertanyaan 1]  
-   **Jawaban:**  
-2. [Pertanyaan 2]  
-   **Jawaban:**  
-3. [Pertanyaan 3]  
-   **Jawaban:**  
-
+1.Mengapa simulasi diperlukan untuk menguji algoritma scheduling? Jawaban: Simulasi diperlukan untuk mengotomatisasi perhitungan penjadwalan CPU sehingga hasil lebih cepat, konsisten, dan minim kesalahan dibandingkan perhitungan manual.
+2.Apa perbedaan hasil simulasi dengan perhitungan manual jika dataset besar? Jawaban: Secara teori hasilnya sama, namun pada dataset besar simulasi jauh lebih efisien dan akurat, sedangkan perhitungan manual tidak praktis dan rawan kesalahan.
+3.Algoritma mana yang lebih mudah diimplementasikan? Jelaskan. Jawaban: Algoritma FCFS lebih mudah diimplementasikan karena hanya mengurutkan proses berdasarkan waktu kedatangan tanpa logika tambahan seperti pemilihan proses terpendek.
 ---
 
 ## Refleksi Diri
 Tuliskan secara singkat:
-- Apa bagian yang paling menantang minggu ini?  
-- Bagaimana cara Anda mengatasinya?  
+- Apa bagian yang paling menantang minggu ini?  membaut pyhton
+- Bagaimana cara Anda mengatasinya?  cari di chat gpt tutorialnya
 
 ---
 
