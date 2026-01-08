@@ -117,10 +117,17 @@ Sertakan screenshot hasil percobaan atau diagram:
 ---
 
 ## Analisis
-- Jelaskan makna hasil percobaan.  
-- Hubungkan hasil dengan teori (fungsi kernel, system call, arsitektur OS).  
-- Apa perbedaan hasil di lingkungan OS berbeda (Linux vs Windows)?  
+| Algoritma | Jumlah Page Fault | Keterangan                                         |
+| --------- | ----------------- | -------------------------------------------------- |
+| FIFO      | 10                | Mengganti halaman berdasarkan urutan masuk         |
+| LRU       | 9                 | Mengganti halaman yang paling lama tidak digunakan |
+Perbedaan jumlah page fault terjadi karena strategi penggantian halaman yang digunakan oleh masing-masing algoritma.
 
+FIFO tidak mempertimbangkan apakah halaman masih sering digunakan atau tidak. Halaman yang masuk lebih awal akan diganti terlebih dahulu, meskipun masih dibutuhkan.
+
+LRU mempertimbangkan pola penggunaan halaman dengan mengganti halaman yang paling lama tidak diakses, sehingga lebih adaptif terhadap perilaku program.
+
+Berdasarkan hasil simulasi, LRU lebih efisien dibanding FIFO karena menghasilkan jumlah page fault yang lebih sedikit.
 ---
 
 ## Kesimpulan
