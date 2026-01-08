@@ -131,17 +131,18 @@ Berdasarkan hasil simulasi, LRU lebih efisien dibanding FIFO karena menghasilkan
 ---
 
 ## Kesimpulan
-Tuliskan 2–3 poin kesimpulan dari praktikum ini.
+1.Algoritma FIFO dan LRU dapat digunakan untuk menangani penggantian halaman pada sistem operasi ketika terjadi page fault akibat keterbatasan frame memori.
 
+2.Hasil simulasi menunjukkan bahwa algoritma LRU menghasilkan jumlah page fault lebih sedikit dibandingkan FIFO, karena LRU mempertimbangkan riwayat penggunaan halaman.
+
+3.Dengan demikian, LRU lebih efisien dalam pengelolaan memori, meskipun implementasinya lebih kompleks dibandingkan FIFO
 ---
 
 ## Quiz
-1. [Pertanyaan 1]  
-   **Jawaban:**  
-2. [Pertanyaan 2]  
-   **Jawaban:**  
-3. [Pertanyaan 3]  
-   **Jawaban:**  
+1.Apa perbedaan utama FIFO dan LRU? Jawaban: FIFO mengganti halaman berdasarkan urutan kedatangan paling awal di memori, sedangkan LRU mengganti halaman yang paling lama tidak digunakan berdasarkan riwayat akses.
+2.Mengapa FIFO dapat menghasilkan Belady’s Anomaly? Jawaban: Karena FIFO tidak mempertimbangkan frekuensi atau pola penggunaan halaman, sehingga penambahan jumlah frame justru dapat meningkatkan jumlah page fault (Belady’s Anomaly).
+3.Mengapa LRU umumnya menghasilkan performa lebih baik dibanding FIFO? Jawaban: LRU mempertimbangkan pola akses halaman dengan mempertahankan halaman yang sering digunakan, sehingga lebih adaptif terhadap perilaku program dan menghasilkan page fault yang lebih sedikit.
+
 
 ---
 
