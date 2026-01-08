@@ -60,8 +60,7 @@ praktikum/week9-sim-scheduling/
 
 ## Hasil Eksekusi
 
-![WhatsApp Image 2026-01-07 at 19 51 49](https://github.com/user-attachments/assets/36d41584-4a90-4ece-9a58-cee5d1e7063f)
-
+![rykii phyton](https://github.com/user-attachments/assets/718f9a7b-a1e3-4596-a1e8-216d3e3490bb)
 
 
 ---
